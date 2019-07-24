@@ -1,0 +1,9 @@
+CXX=g++
+CXXFLAGS=-std=c++14 -O2 -Wall
+all: a1
+
+	a1:a1.cpp
+	$(CXX) $(CXXFLAGS) a1.cpp -0 a1
+
+clean:
+	rm -rf a1
